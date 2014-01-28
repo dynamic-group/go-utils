@@ -1,5 +1,9 @@
 package utils
 
+import (
+	"github.com/bitly/go-nsq"
+)
+
 type NsqWriter struct {
 	writer *nsq.Writer
 	topic  string
